@@ -111,8 +111,12 @@
 請執行 git log --oneline 並將最近的筆紀錄貼在此處，以證明你的開發流程。
 
 ```log
-10a7ca3 (HEAD -> master) doc: Example answer
-ebfcbd2 (origin/master, origin/HEAD) Init Commit
+C:\B11409047>git log
+commit d9b58b9d62ba7ddb907576d1c5e324da7621aa9b (HEAD -> main)
+Author: Yuder <lienaliber@gmail.com>
+Date:   Wed May 13 10:08:07 2026 +0800
+
+    Initial commit: Add refined_tracker.py and project setupster, origin/HEAD) Init Commit
 ```
 
 請附上你的 GitHub Repository 連結：

@@ -25,6 +25,9 @@ class ExpenseTracker:
         self.save_data()
 
     def view_records(self):
+        if not self.data:
+            print("No records found.")
+            return
         for record in self.data:
             print(f"Date: {record['date']}, Category: {record['category']}, Amount: {record['amount']}")
 
